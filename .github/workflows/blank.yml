@@ -20,4 +20,4 @@ jobs:
       - name: ZAP Scan
         uses: zaproxy/action-full-scan@v0.2.0
         with:
-          target: 'https://cdezaptest.azurewebsites.net/'
+          target: 'https://customer.staging.weir/'
